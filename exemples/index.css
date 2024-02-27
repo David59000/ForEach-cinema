@@ -14,18 +14,10 @@
     background-color: antiquewhite;
     margin: 10px;
 }
-#container_publicite {
-    background-color: aquamarine;
-    margin: 5px;
-}
+
 #pub_et_promotion {
-    background-color: aqua;
     margin: 10px;
     position: relative;
-}
-#pub {
-    background-color: brown;
-    margin: 15px;
 }
 #promotion {
     background-color: rgba(13, 13, 13, 0.5);
@@ -69,8 +61,8 @@ img {
     
 }
 #tarifs {
-    background-color: #186CB0;
-    color: white ;
+    background-color: white;
+    color: #186CB0 ;
 }
 #films {
     background-color: #186CB0;
@@ -80,14 +72,19 @@ img {
     margin: 0 0 0 4px;
 }
 #container_type_abonnement {
-    background-color: yellow;
+    margin: 10px;
+    display: flex ;
+    color: black;
+    background-color: rgb(214, 211, 211);
+    padding: 5px;
+
 }
 #abo_illimity {
-    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
-#titre {
-    background-color: blueviolet;
-}
+
 #container_general {
     margin: 10px;
 }
@@ -98,5 +95,8 @@ img {
         }
     .container {
         font-size: 15px;
+    }
+    #pub_et_promotion {
+        display: none;
     }
 }
