@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Uniformn;
+    src: url(../assets/fonts/Uniform.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Uniform;
+    }
+.container {
+    display: flex;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+header {
+    background-color: #186CB0;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
+}
