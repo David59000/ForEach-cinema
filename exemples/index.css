@@ -22,9 +22,19 @@ ul {
     list-style: none;
     display: flex;
 }
-li {
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#li_mon_compte {
+    margin: 0 10px;
+
+}
+#li_espace_pro {
     margin: 0 10px;
 }
+
 header {
     background-color: #186CB0;
     color: white;
@@ -36,4 +46,13 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+@media screen and (max-width: 480px) {
+
+    #li_espace_pro {
+            display: none;
+        }
+    .container {
+        font-size: 15px;
+    }
 }
