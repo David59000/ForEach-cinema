@@ -91,24 +91,60 @@ img {
     margin: 10px;
 }
 #container_type_film {
-    background-color: rgb(17, 240, 95);
+    background-color: rgb(214, 211, 211);
+    display: flex;
+    margin: 10px;
 }
 #presentation {
-    background-color: aquamarine;
+    background-color: rgb(214, 211, 211);
 }
 #image_film {
-    background-color: pink;
-    width: 80px;
+    position: relative;
+    padding: 15px;
+    
+}
+#container_image_film {
+    width:  150px;
+    
+    align-items: center;
+}
+#container_image_film img {
+    border: white solid 3px;
 }
 #titre_film {
-    background-color: gray;
+    padding: 5px;
+    color: black;
+    text-align: start;
 }
 #image_etoiles {
     width: 30px;
     height: 30px;
 }
-#synopsis {
+#comedie_button {
+    background-color: #4F8B1A;
+    border-radius: 2px;
+    padding: 3px;
+    color: white;
+}
+
+#bouton_coup_de_coeur {
     background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+#containerDescriptifFilm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 15px;
+}
+#synopsis {
+    text-align: end;
+    color: black;
+    padding: 15px;
 }
 @media screen and (max-width: 480px) {
 
@@ -121,4 +157,5 @@ img {
     #pub_et_promotion {
         display: none;
     }
+    
 }
