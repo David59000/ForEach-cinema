@@ -87,6 +87,10 @@ img {
     justify-content: space-between;
     width: 100%;
 }
+#grand_container {
+    display: flex;
+    flex-wrap: wrap;
+}
 #container_general {
     margin: 10px;
 }
@@ -115,6 +119,8 @@ img {
     padding: 5px;
     color: black;
     text-align: start;
+    font-size: 15px;
+
 }
 #image_etoiles {
     width: 30px;
@@ -141,10 +147,20 @@ img {
     align-items: start;
     padding: 15px;
 }
+#coeur {
+    width: 20px;
+    height: 20px;
+}
 #synopsis {
     text-align: end;
     color: black;
     padding: 15px;
+}
+#container_synopsis {
+    align-items: end;
+}
+#secondBlocAvecSalles {
+    background-color: aqua;
 }
 @media screen and (max-width: 480px) {
 
@@ -156,6 +172,13 @@ img {
     }
     #pub_et_promotion {
         display: none;
+    }
+    #titre_film {
+        padding: 5px;
+        color: black;
+        text-align: start;
+        font-size: 10px;
+    
     }
     
 }
